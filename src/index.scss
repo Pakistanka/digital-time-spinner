@@ -1,0 +1,95 @@
+:root {
+  --padding-x: 0 160px 0 320px;
+  --padding-top: 170px;
+  --padding-bottom: 84px;
+
+  --padding-left: 80px;
+  --padding-right: 160px;
+  --padding-x-min: 0 var(--padding-right) 0 var(--padding-left);
+
+  --white: #fff;
+  --background: #f4f5f9;
+  --gradient: linear-gradient(180deg, #3877ee -5%, #ef5da8 85%);
+
+  --font-color: #42567a;
+  --font-color-accent: #3877ee;
+
+  --accent-color-1: #5d5fef;
+  --accent-color-2: #ef5da8;
+
+  --border-color: #42567a;
+  --border-active: #42567a80;
+  --border-color-mobile: #C7CDD9;
+  --border-color-circle: #42567a33;
+  --border-color-circle-point: #303E5880;
+  --border-color-transparent: #42567a1a;
+
+  --circle-width: max(min(530px, 25vw), 280px);
+
+  --font-b: max(min(1.5625rem, 2vw), 1rem);
+  --font-b-height: max(min(1.875rem, 2vw), 1.2rem);
+
+  --font-p: max(min(1.25rem, 2vw), 0.875rem);
+  --font-p-height: max(min(1.875rem, 2vw), 1.27rem);
+
+  --font-span: 0.875rem;
+  --font-span-height: 1.13rem;
+
+  --font-mega: max(min(12.5rem, 12vw), 3.5rem);
+  --font-mega-height: max(min(10rem, 12vw), 4.53rem);
+
+  --font-h1: max(min(3.5rem, 3vw), 1.25rem);
+  --font-h1-height: max(min(4.2rem, 3vw), 1.5rem);
+
+  @media screen and (max-width: 1620px) {
+    --padding-x: 0 110px 0 220px;
+    --padding-top: 120px;
+    --padding-bottom: 34px;
+
+    --padding-left: 60px;
+    --padding-right: 60px;
+  }
+
+  @media screen and (max-width: 1350px) {
+    --padding-x: 0 50px 0 100px;
+    --padding-top: 60px;
+    --padding-bottom: 17px;
+
+    --padding-left: 50px;
+    --padding-right: 50px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    --padding-x: 0 20px;
+    --padding-top: 59px;
+    --padding-bottom: 13px;
+
+    --padding-left: 0;
+    --padding-right: 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:active {
+    scale: 0.98;
+  }
+}
