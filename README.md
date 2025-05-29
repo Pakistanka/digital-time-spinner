@@ -1,6 +1,7 @@
 # 🚀 Welcome to This Time Spinner
 
-You’ve just stumbled upon the *pinnacle of modern engineering* — or at least, some TypeScript that runs.
+You’ve just stumbled upon the *pinnacle of modern engineering* — or at least, some TypeScript that runs. 
+You will be able to take a look here - https://digital-time-spinner.vercel.app/
 
 ## 🧠 What is this?
 
